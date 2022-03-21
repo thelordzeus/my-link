@@ -1,16 +1,20 @@
 import "./App.css";
-import Home from "./Home";
+import Links from "./links";
+
 import NavBar from "./Navbar";
 import ParticleBackground from "./ParticleBackground";
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <NavBar />
       <div className="content">
-        <Home />
+        <h1>"First we vibe."</h1>
       </div>
-      <div className="Particle">{/* <ParticleBackground /> */}</div>
+      <Links />
+      <div className="Particle">
+        <ParticleBackground />
+      </div>
     </div>
   );
 }

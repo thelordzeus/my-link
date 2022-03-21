@@ -34,6 +34,7 @@ h1 {
 
 .navbar .links {
   margin-left: auto;
+  z-index: 1;
 }
 
 .navbar a {
@@ -51,17 +52,18 @@ h1 {
 
 .content h1 {
   font-size: 40px;
-  color: gray;
-}
-
-.content h2 {
-  color: #fafafa;
-  margin-top: 10px;
-  font-size: 35px;
+  color: white;
+  font-style: italic;
 }
 
 .socials {
   margin: 10px auto;
+}
+
+.socials .socialLinks {
+  position: relative;
+  /* margin-left: 70vh; */
+  z-index: 1;
 }
 
 i {

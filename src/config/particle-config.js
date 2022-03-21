@@ -1,7 +1,7 @@
 const particleConfig = {
   particles: {
     number: {
-      value: 213,
+      value: 120,
       density: {
         enable: true,
         value_area: 789.1476416322727,
@@ -40,7 +40,7 @@ const particleConfig = {
       random: true,
       anim: {
         enable: false,
-        speed: 4,
+        speed: 6,
         size_min: 0.1,
         sync: false,
       },
@@ -54,7 +54,7 @@ const particleConfig = {
     },
     move: {
       enable: true,
-      speed: 6,
+      speed: 4,
       direction: "none",
       random: false,
       straight: false,

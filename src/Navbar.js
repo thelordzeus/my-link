@@ -4,7 +4,7 @@ const NavBar = () => {
       <h1>Lord Zeus</h1>
       <div className="links">
         <a href="/">Home</a>
-        <a href="/create">New blog</a>
+        <a href="https://youtu.be/xjrU3N8M4eo?t=12">uwu</a>
       </div>
     </nav>
   );
